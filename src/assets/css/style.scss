@@ -1,0 +1,75 @@
+@use 'variables';
+
+.fontStyle{
+  font-family: "Sen", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    .logoMain{
+        width: 324px;
+        border-radius: 100%;
+    }
+}
+.centerVertical{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.defaultLogo{
+    width: 196px;
+    border-radius: 100%;
+    margin-top: 10%;
+}
+.pageDiv{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-around;
+}
+.texth3{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 24px;
+}
+.inputText{
+    background-color: variables.$input_default_bg;
+    border-style: none;
+    width: 337px;
+    height: 49px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 24px;
+    color: variables.$defaultDarkBlue;
+    padding: 0 20px 0 20px;
+    margin-bottom: 20px;
+    &::placeholder{
+        color: variables.$defaultLightGrey;
+    }
+}
+.inputDisplay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+}
+.defaultButton{
+    background-color: variables.$defaultDarkBlue;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    width: 193px;
+    height: 49px;
+    text-align: center;
+    border-style: none;
+    border-radius: 50px;
+}

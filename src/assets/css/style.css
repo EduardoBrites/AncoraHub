@@ -1,0 +1,84 @@
+.fontStyle {
+  font-family: "Sen", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.center .logoMain {
+  width: 324px;
+  border-radius: 100%;
+}
+
+.centerVertical {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.defaultLogo {
+  width: 196px;
+  border-radius: 100%;
+  margin-top: 10%;
+}
+
+.pageDiv {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.texth3 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.inputText {
+  background-color: #E2E2E2;
+  border-style: none;
+  width: 337px;
+  height: 49px;
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 24px;
+  color: #0A162E;
+  padding: 0 20px 0 20px;
+  margin-bottom: 20px;
+}
+.inputText::-moz-placeholder {
+  color: rgba(10, 22, 46, 0.24);
+}
+.inputText::placeholder {
+  color: rgba(10, 22, 46, 0.24);
+}
+
+.inputDisplay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.defaultButton {
+  background-color: #0A162E;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  width: 193px;
+  height: 49px;
+  text-align: center;
+  border-style: none;
+  border-radius: 50px;
+}/*# sourceMappingURL=style.css.map */
