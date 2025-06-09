@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
 .fontStyle {
   font-family: "Sen", sans-serif;
   font-optical-sizing: auto;
@@ -81,4 +87,90 @@
   text-align: center;
   border-style: none;
   border-radius: 50px;
+}
+
+.aBitOfText {
+  color: rgba(10, 22, 46, 0.24);
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.linkText {
+  color: #0A162E;
+  text-decoration: none;
+}
+
+.imageButton {
+  width: 44px;
+  height: 50px;
+  background-color: rgba(10, 22, 46, 0.24);
+  padding: 10px 13px 10px 13px;
+  border-radius: 50px;
+  margin: 20px;
+  position: fixed;
+}
+
+.mainPageArea {
+  width: 100vw;
+  height: 853px;
+  border-bottom: 50px;
+  overflow-y: scroll;
+  position: fixed;
+}
+
+.bottomLeft {
+  fill: #0A162E;
+  position: absolute;
+  width: 100px;
+  left: -51px;
+  bottom: 28px;
+}
+
+.bottomRight {
+  fill: #0A162E;
+  position: absolute;
+  width: 100px;
+  right: -51px;
+  bottom: 28px;
+}
+
+.menuUl {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100vw;
+  height: 79px;
+  overflow: hidden;
+}
+
+.menuDiv {
+  background-color: #0A162E;
+  position: absolute;
+  bottom: 0px;
+}
+
+.iconTrue {
+  fill: white;
+  width: 30px;
+  height: 30px;
+}
+
+.iconFalse {
+  display: inline-block;
+  fill: rgba(255, 255, 255, 0.3);
+  width: 30px;
+  height: 30px;
+}
+
+.iconInstance {
+  transition: fill 0.5s ease, transform 0.3s ease;
+}
+
+.iconInstance:hover {
+  transform: scale(1.2);
+}
+.iconInstance:hover .iconFalse {
+  fill: rgba(255, 255, 255, 0.5);
 }/*# sourceMappingURL=style.css.map */

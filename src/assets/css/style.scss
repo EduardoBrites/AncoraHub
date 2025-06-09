@@ -1,4 +1,9 @@
 @use 'variables';
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
 
 .fontStyle{
   font-family: "Sen", sans-serif;
@@ -72,4 +77,78 @@
     text-align: center;
     border-style: none;
     border-radius: 50px;
+}
+.aBitOfText{
+    color: variables.$defaultLightGrey;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.linkText{
+    color: variables.$defaultDarkBlue;
+    text-decoration: none;
+}
+.imageButton{
+    width: 44px;
+    height: 50px;
+    background-color: variables.$defaultLightGrey;
+    padding: 10px 13px 10px 13px;
+    border-radius: 50px;
+    margin: 20px;
+    position: fixed;
+}
+.mainPageArea{
+    width: 100vw;
+    height: 853px;
+    border-bottom: 50px;
+    overflow-y: scroll;
+    position: fixed;
+}
+.bottomLeft{
+    fill: variables.$defaultDarkBlue;
+    position: absolute;
+    width: variables.$slopeSize;
+    left: variables.$adjustPositionSlopeL;
+    bottom: variables.$adjustBottomSlopPosition;
+}
+.bottomRight{
+    fill: variables.$defaultDarkBlue;
+    position: absolute;
+    width: variables.$slopeSize;
+    right: variables.$adjustPositionSlopeR;
+    bottom: variables.$adjustBottomSlopPosition;
+}
+.menuUl{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 79px;
+    overflow: hidden;
+}
+.menuDiv{
+    background-color: variables.$defaultDarkBlue;
+    position: absolute;
+    bottom: 0px;
+}
+.iconTrue{
+    fill: variables.$iconTrue;
+    width: 30px;
+    height: 30px;
+}
+.iconFalse {
+    display: inline-block;
+    fill: variables.$iconFalse;
+    width: 30px;
+    height: 30px;
+}
+.iconInstance{
+    transition: fill 0.5s ease, transform 0.3s ease;
+}
+.iconInstance:hover{
+    .iconFalse{
+        fill: variables.$iconFalseHover;
+    }
+    transform: scale(1.2);
 }

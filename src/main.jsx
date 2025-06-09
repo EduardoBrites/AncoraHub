@@ -7,6 +7,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App.jsx';
 import LandingPage from './assets/pages/LandingPage.jsx';
 import Login from './assets/pages/Login.jsx'; // ajuste conforme a localização real
+import Signin from './assets/pages/Signin.jsx';
+import Home from './assets/pages/Home.jsx';
 
 const router = createBrowserRouter([
   {
@@ -14,7 +16,9 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       { index: true, element: <LandingPage /> },
-      { path: 'login', element: <Login /> }
+      { path: 'login', element: <Login /> },
+      { path: 'signin', element: <Signin /> },
+      { path: 'home', element: <Home /> }
     ]
   }
 ]);

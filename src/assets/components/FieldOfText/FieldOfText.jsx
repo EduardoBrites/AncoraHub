@@ -1,7 +1,7 @@
-function FieldOfText({ text }) {
+function FieldOfText({ type, text }) {
   return (
     <>
-      <input type="text" className="inputText fontStyle" placeholder={text}/>
+      <input type={type} className="inputText fontStyle" placeholder={text}/>
     </>
   );
 }
