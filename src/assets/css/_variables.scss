@@ -1,10 +1,12 @@
 @use 'sass:math';
 
 $input_default_bg: #E2E2E2;
+$inputSecondBg: #E3E3E3;
 
 // Variaveis de texto
 $defaultDarkBlue: #0A162E;
 $defaultLightGrey: rgba(10, 22, 46, 0.24);
+$defaultWhite: white;
 
 // Menu
 $menuHeigh: 79px;
@@ -14,7 +16,10 @@ $adjustPositionSlopeL: $halfSlopeSize * -1 - 1px;
 $adjustPositionSlopeR: $halfSlopeSize * -1 - 1px;
 $adjustBottomSlopPosition: $menuHeigh - $halfSlopeSize - 1px;
 
-// Icons
+// Icones
 $iconTrue: white;
 $iconFalse: rgba(255, 255, 255, 0.3);
 $iconFalseHover: rgba(255, 255, 255, 0.5);
+
+// Imagens
+$backgrountNoImage: #657087;

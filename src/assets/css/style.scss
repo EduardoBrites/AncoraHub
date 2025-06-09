@@ -2,8 +2,13 @@
 *{
     margin: 0;
     padding: 0;
+}
+
+html, body {
+    height: 100vh;
     overflow: hidden;
 }
+
 
 .fontStyle{
   font-family: "Sen", sans-serif;
@@ -95,14 +100,22 @@
     padding: 10px 13px 10px 13px;
     border-radius: 50px;
     margin: 20px;
-    position: fixed;
+    /*position: fixed;*/
+}
+.profileButton{
+    width: 26px;
+    height: 30px;
+    background-color: variables.$defaultLightGrey;
+    padding: 10px 12px 10px 12px;
+    border-radius: 50px;
+    margin: 0px 10px 0px 20px;
+    /*position: fixed;*/
 }
 .mainPageArea{
     width: 100vw;
-    height: 853px;
+    height: 100vh;
+    overflow: hidden;
     border-bottom: 50px;
-    overflow-y: scroll;
-    position: fixed;
 }
 .bottomLeft{
     fill: variables.$defaultDarkBlue;
@@ -151,4 +164,88 @@
         fill: variables.$iconFalseHover;
     }
     transform: scale(1.2);
+}
+.searchDiv{
+    width: calc(100vw - 110px);
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.fullSearchBar{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    align-items: center;
+    height: 110px;
+}
+.searchBar{
+    background-color: variables.$inputSecondBg;
+    border-style: none;
+    width: 100%;
+    height: 35px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    color: variables.$defaultDarkBlue;
+    padding: 0 20px 0 20px;
+    &::placeholder{
+        color: variables.$defaultLightGrey;
+        text-decoration: underline;
+    }
+}
+.searchBarButton{
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin: 0 20px 0 10px;
+    transition: all 1s;
+}
+.cardsArea{
+    display: flex;
+    height: 688px;
+    flex-direction: column;
+    overflow-y: scroll;
+    gap: 70px;
+    margin: 124px 37px 35px 37px;
+}
+.card{
+    width: 100%;
+    height: 216px;
+    display: flex;
+    flex-direction: column;
+}
+.sellerProfile{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.sellerName{
+    background-color: variables.$defaultDarkBlue;
+    text-transform: capitalize;
+    color: variables.$defaultWhite;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    max-width: 231px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.cardImageDiv{
+    width: calc(356px - 10%);
+    height: 100%;
+    margin: 1% 5% 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: variables.$backgrountNoImage;
+    border-radius: 5px;
+}
+.cardImage{
+    width: 80%;
+    height: 100%;
 }

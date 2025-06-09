@@ -8,7 +8,9 @@ function Home(){
         <>
         <div className="fullPage">
             <div className="mainPageArea">
-                <ImageButton img={User} link="/profile" alt="Profile"></ImageButton>
+                <div className="fullSearchBar">
+                    <ImageButton img={User} link="/profile" alt="Profile"></ImageButton>
+                </div>
             </div>
             <FooterMenu home="iconTrue" shop="iconFalse" help="iconFalse" chat="iconFalse" calendar="iconFalse"></FooterMenu>
         </div>

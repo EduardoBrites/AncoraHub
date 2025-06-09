@@ -9,6 +9,7 @@ import LandingPage from './assets/pages/LandingPage.jsx';
 import Login from './assets/pages/Login.jsx'; // ajuste conforme a localização real
 import Signin from './assets/pages/Signin.jsx';
 import Home from './assets/pages/Home.jsx';
+import Shop from './assets/pages/Shop.jsx';
 
 const router = createBrowserRouter([
   {
@@ -18,7 +19,8 @@ const router = createBrowserRouter([
       { index: true, element: <LandingPage /> },
       { path: 'login', element: <Login /> },
       { path: 'signin', element: <Signin /> },
-      { path: 'home', element: <Home /> }
+      { path: 'home', element: <Home /> },
+      { path: 'shop', element: <Shop /> }
     ]
   }
 ]);
