@@ -8,11 +8,13 @@ $defaultDarkGrey: rgb(75, 75, 75);
 
 // Menu
 $menuHeigh: 79px;
+$menuHeighTop: 496px;
 $slopeSize: 100px;
 $halfSlopeSize: math.div($slopeSize, 2);
 $adjustPositionSlopeL: $halfSlopeSize * -1 - 1px;
 $adjustPositionSlopeR: $halfSlopeSize * -1 - 1px;
-$adjustBottomSlopPosition: $menuHeigh - $halfSlopeSize - 1px;
+$adjustBottomSlopePosition: $menuHeigh - $halfSlopeSize - 1px;
+$adjustHighSlopePosition: $menuHeighTop - $halfSlopeSize - 1px;
 
 // Icones
 $iconTrue: white;
@@ -26,3 +28,5 @@ $backgrountNoImage: #657087;
 $input_default_bg: #E2E2E2;
 $inputSecondBg: #E3E3E3;
 $defaultPressedColor: rgb(209, 68, 68);
+
+$supplierInfoCalc: 496px - $menuHeigh;

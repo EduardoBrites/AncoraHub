@@ -13,8 +13,8 @@ function Signin(){
                 <p className="texth3 fontStyle">bem vindo!</p>
             </div>
             <div className="inputDisplay">
-                <FieldOfText type="text" text="EMAIL"></FieldOfText>
-                <FieldOfText type="text" text="REPITA O EMAIL"></FieldOfText>
+                <FieldOfText type="email" text="EMAIL"></FieldOfText>
+                <FieldOfText type="email" text="REPITA O EMAIL"></FieldOfText>
                 <FieldOfText type="password" text="SENHA"></FieldOfText>
                 <FieldOfText type="password" text="REPITA A SENHA"></FieldOfText>
             </div>

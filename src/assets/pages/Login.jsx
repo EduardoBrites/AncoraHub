@@ -13,7 +13,7 @@ function Login(){
                 <p className="texth3 fontStyle">bem vindo!</p>
             </div>
             <div className="inputDisplay">
-                <FieldOfText type="text" text="EMAIL"></FieldOfText>
+                <FieldOfText type="email" text="EMAIL"></FieldOfText>
                 <FieldOfText type="password" text="SENHA"></FieldOfText>
             </div>
             <Button src="home" text="ENTRAR"/>

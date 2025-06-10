@@ -15,20 +15,20 @@ function Help(){
                     <SearchBar text="Pesquisar"></SearchBar>
                 </div>
                 <div className="contactArea">
-                    <Contact link="/help" name="Nome da Marca"></Contact>
-                    <Contact link="/help" name="Nome da Marca"></Contact>
-                    <Contact link="/help" name="Nome da Marca"></Contact>
-                    <Contact link="/help" name="Nome da Marca"></Contact>
-                    <Contact link="/help" name="Nome da Marca"></Contact>
-                    <Contact link="/help" name="Nome da Marca"></Contact>
-                    <Contact link="/help" name="Nome da Marca"></Contact>
-                    <Contact link="/help" name="Nome da Marca"></Contact>
-                    <Contact link="/help" name="Nome da Marca"></Contact>
-                    <Contact link="/help" name="Nome da Marca"></Contact>
-                    <Contact link="/help" name="Nome da Marca"></Contact>
-                    <Contact link="/help" name="Nome da Marca"></Contact>
-                    <Contact link="/help" name="Nome da Marca"></Contact>
-                    <Contact link="/help" name="Nome da Marca"></Contact>
+                    <Contact link="/supplierprofile" name="Nome da Marca"></Contact>
+                    <Contact link="/supplierprofile" name="Nome da Marca"></Contact>
+                    <Contact link="/supplierprofile" name="Nome da Marca"></Contact>
+                    <Contact link="/supplierprofile" name="Nome da Marca"></Contact>
+                    <Contact link="/supplierprofile" name="Nome da Marca"></Contact>
+                    <Contact link="/supplierprofile" name="Nome da Marca"></Contact>
+                    <Contact link="/supplierprofile" name="Nome da Marca"></Contact>
+                    <Contact link="/supplierprofile" name="Nome da Marca"></Contact>
+                    <Contact link="/supplierprofile" name="Nome da Marca"></Contact>
+                    <Contact link="/supplierprofile" name="Nome da Marca"></Contact>
+                    <Contact link="/supplierprofile" name="Nome da Marca"></Contact>
+                    <Contact link="/supplierprofile" name="Nome da Marca"></Contact>
+                    <Contact link="/supplierprofile" name="Nome da Marca"></Contact>
+                    <Contact link="/supplierprofile" name="Nome da Marca"></Contact>
                 </div>
             </div>
             <FooterMenu home="iconFalse" shop="iconFalse" help="iconTrue" chat="iconFalse" calendar="iconFalse"></FooterMenu>
