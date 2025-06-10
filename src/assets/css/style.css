@@ -268,6 +268,53 @@ html, body {
   margin: 124px 37px 35px 37px;
 }
 
+.calendar {
+  gap: 10px;
+  margin: 124px 55px 35px 55px;
+}
+.calendar h2 {
+  text-align: center;
+  margin: 15px 0 15px 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.days {
+  display: flex;
+  height: -moz-fit-content;
+  height: fit-content;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 15px;
+  background-color: rgb(209, 68, 68);
+  border-radius: 10px;
+}
+
+.calendarRow {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  list-style: none;
+  justify-content: space-around;
+}
+.calendarRow li {
+  background-color: rgb(209, 68, 68);
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 5px;
+  color: rgb(75, 75, 75);
+  background-color: white;
+}
+.calendarRow .calendarHeader {
+  color: #0A162E;
+  background-color: rgb(209, 68, 68);
+}
+
 .chatField {
   display: flex;
   height: 50px;

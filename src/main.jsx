@@ -12,6 +12,7 @@ import Home from './assets/pages/Home.jsx';
 import Shop from './assets/pages/Shop.jsx';
 import Help from './assets/pages/Help.jsx';
 import Chat from './assets/pages/Chat.jsx';
+import Calendar from './assets/pages/Calendar.jsx';
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,7 @@ const router = createBrowserRouter([
       { path: 'shop', element: <Shop /> },
       { path: 'help', element: <Help /> },
       { path: 'chat', element: <Chat /> },
+      { path: 'calendar', element: <Calendar /> },
     ]
   }
 ]);
