@@ -222,6 +222,48 @@ html, body {
     gap: 30px;
     margin: 124px 37px 35px 37px;
 }
+.chat{
+    display: flex;
+    height: 618px;
+    flex-direction: column;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin: 124px 37px 35px 37px;
+}
+.chatField{
+    display: flex;
+    height: 50px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 37px 25px 37px;
+    gap: 10px;
+    .inputText{
+        width: 100%;
+    }
+    .imageButton{
+    width: 24px;
+    height: 30px;
+    background-color: variables.$defaultLightGrey;
+    padding: 10px 13px 10px 13px;
+    border-radius: 50px;
+    margin: 0px;
+    transition: 0.5s all ease-in-out;
+    }
+    .imageButton:hover{
+        background-color: variables.$defaultPressedColor;
+        transform: translateY(-10px);
+    }
+    .imageSubmitButton{
+        width: 50px;
+        height: 50px;
+        border-style: none;
+        background-color: none;
+        border-radius: 100px;
+    }
+}
 .card{
     width: 100%;
     height: 216px;
@@ -264,4 +306,53 @@ html, body {
 .cardImage{
     width: 80%;
     height: 100%;
+}
+.chatText{
+    text-align: center;
+    font-weight: bold;
+}
+.verticalLines{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.smallLine{
+    animation: smallLine 1s infinite;
+    font-size: 30px;
+    font-weight: 900;
+}
+.bigLine{
+    animation: bigLine 1s infinite;
+    font-size: 40px;
+    font-weight: 700;
+}
+.listening{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+@keyframes smallLine {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+@keyframes bigLine {
+    0%{
+        transform: translateY(-10px);
+    }
+    50%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
 }

@@ -11,6 +11,7 @@ import Signin from './assets/pages/Signin.jsx';
 import Home from './assets/pages/Home.jsx';
 import Shop from './assets/pages/Shop.jsx';
 import Help from './assets/pages/Help.jsx';
+import Chat from './assets/pages/Chat.jsx';
 
 const router = createBrowserRouter([
   {
@@ -22,7 +23,8 @@ const router = createBrowserRouter([
       { path: 'signin', element: <Signin /> },
       { path: 'home', element: <Home /> },
       { path: 'shop', element: <Shop /> },
-      { path: 'help', element: <Help /> }
+      { path: 'help', element: <Help /> },
+      { path: 'chat', element: <Chat /> },
     ]
   }
 ]);
