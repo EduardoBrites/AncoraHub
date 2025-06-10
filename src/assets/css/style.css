@@ -241,13 +241,31 @@ html, body {
   height: 688px;
   flex-direction: column;
   overflow-y: scroll;
+  overflow-x: hidden;
   gap: 70px;
+  margin: 124px 37px 35px 37px;
+}
+
+.contactArea {
+  display: flex;
+  height: 688px;
+  flex-direction: column;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  gap: 30px;
   margin: 124px 37px 35px 37px;
 }
 
 .card {
   width: 100%;
   height: 216px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardContact {
+  width: 100%;
+  height: 54px;
   display: flex;
   flex-direction: column;
 }
@@ -267,9 +285,9 @@ html, body {
   color: white;
   padding: 5px 10px 5px 10px;
   border-radius: 10px;
-  max-width: 231px;
-  white-space: nowrap;
+  width: 237px;
   text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .cardImageDiv {

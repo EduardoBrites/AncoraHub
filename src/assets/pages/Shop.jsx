@@ -15,12 +15,13 @@ function Shop(){
                     <SearchBar text="Pesquisar"></SearchBar>
                 </div>
                 <div className="cardsArea">
-                    <ShopCard link="/shop" name="Nome do Vendedor"></ShopCard>
-                    <ShopCard link="/shop" name="Nome do Vendedor"></ShopCard>
-                    <ShopCard link="/shop" name="Nome do Vendedor"></ShopCard>
-                    <ShopCard link="/shop" name="Nome do Vendedor"></ShopCard>
-                    <ShopCard link="/shop" name="Nome do Vendedor"></ShopCard>
-                    <ShopCard link="/shop" name="Nome do Vendedor"></ShopCard>
+                    <ShopCard link="/help" name="Marca"></ShopCard>
+                    <ShopCard link="/help" name="Marca"></ShopCard>
+                    <ShopCard link="/help" name="Marca"></ShopCard>
+                    <ShopCard link="/help" name="Marca"></ShopCard>
+                    <ShopCard link="/help" name="Marca"></ShopCard>
+                    <ShopCard link="/help" name="Marca"></ShopCard>
+                    <ShopCard link="/help" name="Marca"></ShopCard>
                 </div>
             </div>
             <FooterMenu home="iconFalse" shop="iconTrue" help="iconFalse" chat="iconFalse" calendar="iconFalse"></FooterMenu>

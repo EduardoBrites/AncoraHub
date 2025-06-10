@@ -6,7 +6,7 @@ function ProfileButton({ img, link, alt, sellerName }){
         <>
             <div className="sellerProfile">
                 <Link to={link}><img src={img} alt={alt} className="profileButton"></img></Link>
-                <p class="sellerName fontStyle">{sellerName}</p>
+                <p className="sellerName fontStyle">{sellerName}</p>
             </div>
         </>
     )

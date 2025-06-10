@@ -10,6 +10,7 @@ import Login from './assets/pages/Login.jsx'; // ajuste conforme a localização
 import Signin from './assets/pages/Signin.jsx';
 import Home from './assets/pages/Home.jsx';
 import Shop from './assets/pages/Shop.jsx';
+import Help from './assets/pages/Help.jsx';
 
 const router = createBrowserRouter([
   {
@@ -20,7 +21,8 @@ const router = createBrowserRouter([
       { path: 'login', element: <Login /> },
       { path: 'signin', element: <Signin /> },
       { path: 'home', element: <Home /> },
-      { path: 'shop', element: <Shop /> }
+      { path: 'shop', element: <Shop /> },
+      { path: 'help', element: <Help /> }
     ]
   }
 ]);
