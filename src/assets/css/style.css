@@ -1,10 +1,18 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
 }
 
 html, body {
-  height: 100vh;
+  overflow-y: hidden !important;
+  overflow-x: hidden !important;
+  height: 100%;
+  width: 100%;
+  outline: 1px solid red; /* Só pra debug */
+}
+
+.fullPage {
   overflow: hidden;
 }
 
@@ -142,33 +150,43 @@ html, body {
 .bottomLeft {
   fill: #0A162E;
   position: absolute;
-  width: 100px;
-  left: -51px;
-  bottom: 28px;
+  width: 50px;
+  height: 50px;
+  left: 0px;
+  bottom: 78px;
+  overflow: hidden;
+  transform: rotate(90deg);
 }
 
 .bottomRight {
   fill: #0A162E;
   position: absolute;
-  width: 100px;
-  right: -51px;
-  bottom: 28px;
+  width: 50px;
+  height: 50px;
+  right: 0px;
+  bottom: 78px;
+  overflow: hidden;
 }
 
 .bottomLeftHigh {
   fill: #0A162E;
   position: absolute;
-  width: 100px;
-  left: -51px;
-  bottom: 445px;
+  width: 50px;
+  height: 50px;
+  left: 0px;
+  bottom: 495px;
+  overflow: hidden;
+  transform: rotate(90deg);
 }
 
 .bottomRightHigh {
   fill: #0A162E;
   position: absolute;
-  width: 100px;
-  right: -51px;
-  bottom: 445px;
+  width: 50px;
+  height: 50px;
+  right: 0px;
+  bottom: 495px;
+  overflow: hidden;
 }
 
 .menuUl {
@@ -196,6 +214,7 @@ html, body {
   background-color: #0A162E;
   position: absolute;
   bottom: 0px;
+  overflow: hidden;
 }
 
 .iconTrue {

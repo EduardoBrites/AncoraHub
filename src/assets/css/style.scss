@@ -5,10 +5,16 @@
 }
 
 html, body {
-    height: 100vh;
-    overflow: hidden;
+  overflow-y: hidden !important;
+  overflow-x: hidden !important;
+  height: 100%;
+  width: 100%;
+  outline: 1px solid red; /* Só pra debug */
 }
 
+.fullPage{
+    overflow: hidden;
+}
 
 .fontStyle{
   font-family: "Sen", sans-serif;
@@ -127,29 +133,39 @@ html, body {
     fill: variables.$defaultDarkBlue;
     position: absolute;
     width: variables.$slopeSize;
+    height: variables.$slopeSize;
     left: variables.$adjustPositionSlopeL;
     bottom: variables.$adjustBottomSlopePosition;
+    overflow: hidden;
+    transform: rotate(90deg);
 }
 .bottomRight{
     fill: variables.$defaultDarkBlue;
     position: absolute;
     width: variables.$slopeSize;
+    height: variables.$slopeSize;
     right: variables.$adjustPositionSlopeR;
     bottom: variables.$adjustBottomSlopePosition;
+    overflow: hidden;
 }
 .bottomLeftHigh{
     fill: variables.$defaultDarkBlue;
     position: absolute;
     width: variables.$slopeSize;
+    height: variables.$slopeSize;
     left: variables.$adjustPositionSlopeL;
     bottom: variables.$adjustHighSlopePosition;
+    overflow: hidden;
+    transform: rotate(90deg);
 }
 .bottomRightHigh{
     fill: variables.$defaultDarkBlue;
     position: absolute;
     width: variables.$slopeSize;
+    height: variables.$slopeSize;
     right: variables.$adjustPositionSlopeR;
     bottom: variables.$adjustHighSlopePosition;
+    overflow: hidden;
 }
 .menuUl{
     display: flex;
@@ -174,6 +190,7 @@ html, body {
     background-color: variables.$defaultDarkBlue;
     position: absolute;
     bottom: 0px;
+    overflow: hidden;
 }
 .iconTrue{
     fill: variables.$iconTrue;

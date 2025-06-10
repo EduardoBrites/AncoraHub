@@ -9,12 +9,13 @@ $defaultDarkGrey: rgb(75, 75, 75);
 // Menu
 $menuHeigh: 79px;
 $menuHeighTop: 496px;
-$slopeSize: 100px;
+$slopeSize: 50px;
 $halfSlopeSize: math.div($slopeSize, 2);
-$adjustPositionSlopeL: $halfSlopeSize * -1 - 1px;
-$adjustPositionSlopeR: $halfSlopeSize * -1 - 1px;
-$adjustBottomSlopePosition: $menuHeigh - $halfSlopeSize - 1px;
-$adjustHighSlopePosition: $menuHeighTop - $halfSlopeSize - 1px;
+$doubleSlopeSize: math.div($slopeSize, 0.5);
+$adjustPositionSlopeL: $slopeSize * 0;
+$adjustPositionSlopeR: $slopeSize * 0;
+$adjustBottomSlopePosition: $menuHeigh - 1px;
+$adjustHighSlopePosition: $menuHeighTop - 1px;
 
 // Icones
 $iconTrue: white;

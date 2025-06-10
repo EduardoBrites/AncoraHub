@@ -1,5 +1,5 @@
 import WideButton from '../Button/WideButton';
-import StarSVG from './../../img/svg/Star.svg?react'
+import StarSVG from './../../img/svg/Star1.svg?react';
 
 function FooterHighMenu({ home, shop, help, chat, calendar }) {
   return (
